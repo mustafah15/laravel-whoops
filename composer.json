@@ -1,0 +1,20 @@
+{
+    "name": "guidovanbiemen/laravel-whoops",
+    "description": "Laravel 5 Whoops integration package",
+    "authors": [
+        {
+            "name": "Guido van Biemen",
+            "email": "guidovanbiemen@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "filp/whoops": "1.1.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Gvb\\Whoops\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
