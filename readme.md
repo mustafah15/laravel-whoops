@@ -31,10 +31,10 @@ you should be able to tell the difference pretty easily.
 
 ## What about AJAX requests?
  
-Whenever you have an AJAX request triggers the error handler, it will be
-recognized and the so called PrettyPageHandler will be exchanged for a
-JsonResponseHandler that returns a JSON response than can by parsed should
-you need to.
+Whenever an AJAX request triggers the error handler, it will be recognized
+and the so called PrettyPageHandler will be exchanged for a
+JsonResponseHandler that returns a JSON response that you can parse on the
+client side.
 
 ## Authors
 
