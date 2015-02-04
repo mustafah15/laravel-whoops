@@ -15,6 +15,5 @@
         "psr-4": {
             "Gvb\\Whoops\\": "src/"
         }
-    },
-    "minimum-stability": "dev"
+    }
 }
