@@ -1,6 +1,8 @@
 {
     "name": "guidovanbiemen/laravel-whoops",
     "description": "Laravel 5 Whoops integration package",
+    "keywords": ["whoops", "error", "exception", "debug", "laravel"],
+    "license": "MIT",
     "authors": [
         {
             "name": "Guido van Biemen",
