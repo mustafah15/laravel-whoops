@@ -17,6 +17,15 @@ Now go into your config/app.php and add the service provider:
 'Gvb\Whoops\ServiceProvider',
 ```
 
+To make sure you also catch any exceptions thrown during the bootstrap you
+should also change the binding in bootstrapp/app.php like this:
+```php
+$app->singleton(
+ 	'Illuminate\Contracts\Debug\ExceptionHandler',
+ 	'Gvb\Whoops\ExceptionHandler'
+);
+```
+
 Thats it! Enjoy your errors :)
 
 ## Troubleshooting
