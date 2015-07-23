@@ -18,7 +18,7 @@ Now go into your `config/app.php` and add the service provider:
 ```
 
 To make sure you also catch any exceptions thrown during the bootstrap you
-should change the binding in `bootstrapp/app.php` like this:
+should change the binding in `bootstrap/app.php` like this:
 ```php
 $app->singleton(
  	'Illuminate\Contracts\Debug\ExceptionHandler',
